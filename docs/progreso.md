@@ -25,6 +25,7 @@ Todavía no se ha iniciado ninguna sesión de contenido (Día 1 en adelante).
 | Fecha | Día del plan | Qué se hizo | Pendientes / notas |
 |---|---|---|---|
 | 2026-08-07 | — (setup) | Plan aprobado. Se creó `practice-project/` (Domain + Api + tests xUnit), build y tests verificados. | Arrancar Día 1 en la próxima sesión. |
+| 2026-08-07 | — (setup) | Se agregó `SeedSampleData()` al repositorio (3 tareas de ejemplo, 1 completada) y se ejecuta automáticamente en `Development`. Nuevo test agregado (4/4 pasando). | — |
 
 ## Bloqueos o dudas abiertas
 
