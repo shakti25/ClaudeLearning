@@ -6,8 +6,8 @@
 
 - **Plan:** [plan-estudio-claude.md](plan-estudio-claude.md) — 🟢 Aprobado (2026-08-07), 17 sesiones
 - **Sesión actual:** Ninguna iniciada todavía
-- **Última sesión completada:** Día 1 — Cómo piensa y opera Claude Code (2026-08-08)
-- **Próxima sesión sugerida:** Día 2 — CLAUDE.md, configuración y memoria
+- **Última sesión completada:** Día 2 — CLAUDE.md, configuración y memoria (2026-08-09)
+- **Próxima sesión sugerida:** Día 3 — Slash Commands y Skills (introducción)
 - **Proyecto de práctica (`practice-project/`):** ✅ Creado (2026-08-07)
 
 ## Resumen general
@@ -29,6 +29,7 @@ contexto y herramientas/permisos, aplicado con un ejercicio real sobre `practice
 | 2026-08-07 | — (setup) | Plan aprobado. Se creó `practice-project/` (Domain + Api + tests xUnit), build y tests verificados. | Arrancar Día 1 en la próxima sesión. |
 | 2026-08-07 | — (setup) | Se agregó `SeedSampleData()` al repositorio (3 tareas de ejemplo, 1 completada) y se ejecuta automáticamente en `Development`. Nuevo test agregado (4/4 pasando). | — |
 | 2026-08-08 | Día 1 | Contenido: ciclo agentic, modelo de contexto, tool calling, permisos. Ejercicio: se le pidió a Claude agregar cancelación de tareas (`IsCancelled`/`Cancel()`) sin nombrar archivos; exploró (`Read`/`Glob`), siguió el patrón existente (`Complete()`), editó `StudyTask.cs`, `StudyTaskRepository.cs` y los tests, y verificó con `dotnet test` (5/5 pasando). | Arrancar Día 2 en la próxima sesión. |
+| 2026-08-09 | Día 2 | Contenido: jerarquía de `CLAUDE.md` (usuario/proyecto/carpeta), trade-off de contexto, `settings.json` vs. modo de permiso de la UI, `/memory` vs. sistema de memoria (`memory/`+`MEMORY.md`), buenas/malas prácticas para inferir convenciones en repos grandes (reporte + aprobación humana + enforcement en build/CI). Ejercicio: se creó `.editorconfig` para `practice-project/`, se aplicó con `dotnet format` (5/5 tests OK) y se escribió `CLAUDE.md` documentando stack, estructura, comandos, estilo y convenciones del dominio. Se probó `/memory` (delega a terminal en la extensión IDE) y se guardó una memoria real de preferencia del usuario (explicaciones didácticas). | Arrancar Día 3 en la próxima sesión. |
 
 ## Bloqueos o dudas abiertas
 

@@ -42,10 +42,10 @@ Para actualizar tu progreso, marca `- [ ]` como `- [x]` y anota la fecha real. T
 - **Fecha real:** 2026-08-08
 
 ### Día 2 — CLAUDE.md, configuración y memoria
-- [ ] **Objetivo:** Dominar `CLAUDE.md`, `settings.json`, permisos granulares y memoria persistente entre sesiones.
+- [x] **Objetivo:** Dominar `CLAUDE.md`, `settings.json`, permisos granulares y memoria persistente entre sesiones.
 - **Contenido:** Jerarquía de configuración (usuario/proyecto/local), buenas prácticas para `CLAUDE.md`, cómo funciona la memoria de proyecto.
 - **Ejercicio:** Crear un `CLAUDE.md` real para `practice-project/` con convenciones de tu stack .NET (estilo, estructura de carpetas, comandos de build/test).
-- **Fecha real:** _—_
+- **Fecha real:** 2026-08-09
 
 ### Día 3 — Slash Commands y Skills (introducción)
 - [ ] **Objetivo:** Entender qué es una Skill, cuándo se activa, y la diferencia con un slash command simple.
