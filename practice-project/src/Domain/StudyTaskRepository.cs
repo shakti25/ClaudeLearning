@@ -19,13 +19,21 @@ public class StudyTaskRepository
     public IReadOnlyList<StudyTask> GetAll() => _tasks.AsReadOnly();
 
     public IReadOnlyList<StudyTask> GetPending() =>
-        _tasks.Where(t => !t.IsCompleted).ToList();
+        _tasks.Where(t => !t.IsCompleted && !t.IsCancelled).ToList();
 
     public bool Complete(Guid id)
     {
         var task = _tasks.FirstOrDefault(t => t.Id == id);
         if (task is null) return false;
         task.Complete();
+        return true;
+    }
+
+    public bool Cancel(Guid id)
+    {
+        var task = _tasks.FirstOrDefault(t => t.Id == id);
+        if (task is null) return false;
+        task.Cancel();
         return true;
     }
 

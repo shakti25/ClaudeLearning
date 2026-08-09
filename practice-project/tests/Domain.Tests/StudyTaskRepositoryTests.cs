@@ -38,6 +38,19 @@ public class StudyTaskRepositoryTests
     }
 
     [Fact]
+    public void Cancel_MarksTaskAsCancelled_AndRemovesFromPending()
+    {
+        var repo = new StudyTaskRepository();
+        var task = repo.Add("Día 1 - Ejercicio de exploración");
+
+        var result = repo.Cancel(task.Id);
+
+        Assert.True(result);
+        Assert.True(task.IsCancelled);
+        Assert.DoesNotContain(task, repo.GetPending());
+    }
+
+    [Fact]
     public void SeedSampleData_AddsTasksWithAtLeastOneCompleted()
     {
         var repo = new StudyTaskRepository();

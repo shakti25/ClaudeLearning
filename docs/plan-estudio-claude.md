@@ -36,10 +36,10 @@ Para actualizar tu progreso, marca `- [ ]` como `- [x]` y anota la fecha real. T
 ## Bloque 1 — Fundamentos avanzados de Claude Code (días 1-4)
 
 ### Día 1 — Cómo piensa y opera Claude Code
-- [ ] **Objetivo:** Entender el modelo de contexto, herramientas, permisos y el ciclo agentic (leer → planear → actuar → verificar).
+- [x] **Objetivo:** Entender el modelo de contexto, herramientas, permisos y el ciclo agentic (leer → planear → actuar → verificar).
 - **Contenido:** Arquitectura de Claude Code, tool calling, modos de permiso, gestión de contexto/compactación.
 - **Ejercicio:** Ejecutar una tarea simple en tu proyecto .NET dejando que Claude explore el código sin darle instrucciones exactas de archivos; observar qué herramientas usa y por qué.
-- **Fecha real:** _—_
+- **Fecha real:** 2026-08-08
 
 ### Día 2 — CLAUDE.md, configuración y memoria
 - [ ] **Objetivo:** Dominar `CLAUDE.md`, `settings.json`, permisos granulares y memoria persistente entre sesiones.

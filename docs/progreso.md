@@ -6,8 +6,8 @@
 
 - **Plan:** [plan-estudio-claude.md](plan-estudio-claude.md) — 🟢 Aprobado (2026-08-07), 17 sesiones
 - **Sesión actual:** Ninguna iniciada todavía
-- **Última sesión completada:** —
-- **Próxima sesión sugerida:** Día 1 — Cómo piensa y opera Claude Code
+- **Última sesión completada:** Día 1 — Cómo piensa y opera Claude Code (2026-08-08)
+- **Próxima sesión sugerida:** Día 2 — CLAUDE.md, configuración y memoria
 - **Proyecto de práctica (`practice-project/`):** ✅ Creado (2026-08-07)
 
 ## Resumen general
@@ -18,7 +18,9 @@ memoria), `src/Api` (API mínima ASP.NET Core sobre el dominio) y `tests/Domain.
 3 tests pasando). Build y tests verificados OK. Este dominio de "tareas de estudio" es el que
 se usará en los ejercicios de skills, sub-agentes, MCP, hooks y tool use a lo largo del plan.
 
-Todavía no se ha iniciado ninguna sesión de contenido (Día 1 en adelante).
+Día 1 completado el 2026-08-08: ciclo agentic (leer → planear → actuar → verificar), modelo de
+contexto y herramientas/permisos, aplicado con un ejercicio real sobre `practice-project/`
+(agregar cancelación de `StudyTask` sin indicar archivos exactos).
 
 ## Bitácora de sesiones
 
@@ -26,6 +28,7 @@ Todavía no se ha iniciado ninguna sesión de contenido (Día 1 en adelante).
 |---|---|---|---|
 | 2026-08-07 | — (setup) | Plan aprobado. Se creó `practice-project/` (Domain + Api + tests xUnit), build y tests verificados. | Arrancar Día 1 en la próxima sesión. |
 | 2026-08-07 | — (setup) | Se agregó `SeedSampleData()` al repositorio (3 tareas de ejemplo, 1 completada) y se ejecuta automáticamente en `Development`. Nuevo test agregado (4/4 pasando). | — |
+| 2026-08-08 | Día 1 | Contenido: ciclo agentic, modelo de contexto, tool calling, permisos. Ejercicio: se le pidió a Claude agregar cancelación de tareas (`IsCancelled`/`Cancel()`) sin nombrar archivos; exploró (`Read`/`Glob`), siguió el patrón existente (`Complete()`), editó `StudyTask.cs`, `StudyTaskRepository.cs` y los tests, y verificó con `dotnet test` (5/5 pasando). | Arrancar Día 2 en la próxima sesión. |
 
 ## Bloqueos o dudas abiertas
 
