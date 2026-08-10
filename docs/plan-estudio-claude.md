@@ -48,10 +48,10 @@ Para actualizar tu progreso, marca `- [ ]` como `- [x]` y anota la fecha real. T
 - **Fecha real:** 2026-08-09
 
 ### Día 3 — Slash Commands y Skills (introducción)
-- [ ] **Objetivo:** Entender qué es una Skill, cuándo se activa, y la diferencia con un slash command simple.
+- [x] **Objetivo:** Entender qué es una Skill, cuándo se activa, y la diferencia con un slash command simple.
 - **Contenido:** Anatomía de una skill (frontmatter, triggers, instrucciones), skills que ya usas sin saberlo (dataviz, code-review, etc.).
 - **Ejercicio:** Explorar 2-3 skills existentes en tu entorno y documentar cómo están estructuradas.
-- **Fecha real:** _—_
+- **Fecha real:** 2026-08-09
 
 ### Día 4 — Crear tu propia Skill para .NET
 - [ ] **Objetivo:** Construir una skill personalizada que resuelva algo repetitivo en tu flujo .NET.
