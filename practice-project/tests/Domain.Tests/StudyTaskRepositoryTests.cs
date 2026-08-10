@@ -16,6 +16,16 @@ public class StudyTaskRepositoryTests
     }
 
     [Fact]
+    public void Add_WithoutDueDate_LeavesDueDateNull()
+    {
+        var repo = new StudyTaskRepository();
+
+        var task = repo.Add("Día 4 - Crear skill propia");
+
+        Assert.Null(task.DueDate);
+    }
+
+    [Fact]
     public void Complete_MarksTaskAsCompleted_AndRemovesFromPending()
     {
         var repo = new StudyTaskRepository();

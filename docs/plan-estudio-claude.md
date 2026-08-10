@@ -54,10 +54,10 @@ Para actualizar tu progreso, marca `- [ ]` como `- [x]` y anota la fecha real. T
 - **Fecha real:** 2026-08-09
 
 ### Día 4 — Crear tu propia Skill para .NET
-- [ ] **Objetivo:** Construir una skill personalizada que resuelva algo repetitivo en tu flujo .NET.
+- [x] **Objetivo:** Construir una skill personalizada que resuelva algo repetitivo en tu flujo .NET.
 - **Contenido:** Estructura de carpeta de una skill, buenas prácticas de triggers, testing manual de la skill.
 - **Ejercicio:** Crear una skill propia (ej. "generar un test unitario xUnit siguiendo el patrón del proyecto" o "revisar convenciones de nombres C#") y probarla en `practice-project/`.
-- **Fecha real:** _—_
+- **Fecha real:** 2026-08-09
 
 ---
 
