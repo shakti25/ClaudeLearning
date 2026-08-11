@@ -64,10 +64,10 @@ Para actualizar tu progreso, marca `- [ ]` como `- [x]` y anota la fecha real. T
 ## Bloque 2 — Agentes, Sub-agentes y Orquestación (días 5-8)
 
 ### Día 5 — Agentes: el concepto general
-- [ ] **Objetivo:** Entender qué hace que un sistema sea "agéntico" y distinguir *agente* de *sub-agente*.
+- [x] **Objetivo:** Entender qué hace que un sistema sea "agéntico" y distinguir *agente* de *sub-agente*.
 - **Contenido:** Loop percibir → decidir → actuar → verificar, patrones comunes (ReAct, planner-executor), Claude Code como agente, qué añade el Agent SDK si quisieras construir un agente fuera de Claude Code.
 - **Ejercicio:** Escribir en tus palabras (doc corto) el loop agéntico aplicado a una tarea real que le pediste antes a Claude por simple prompting — identificar qué decisiones tomó por su cuenta.
-- **Fecha real:** _—_
+- **Fecha real:** 2026-08-09
 
 ### Día 6 — Sub-agentes built-in y el patrón orquestador
 - [ ] **Objetivo:** Entender los sub-agentes disponibles por defecto y el patrón de **model tiering**: un modelo capaz (Opus/Sonnet) orquesta y planea, delega ejecución a modelos más baratos/rápidos (Haiku/Sonnet) según la complejidad de cada sub-tarea.

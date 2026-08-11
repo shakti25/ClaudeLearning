@@ -6,8 +6,8 @@
 
 - **Plan:** [plan-estudio-claude.md](plan-estudio-claude.md) — 🟢 Aprobado (2026-08-07), 17 sesiones
 - **Sesión actual:** Ninguna iniciada todavía
-- **Última sesión completada:** Día 4 — Crear tu propia Skill para .NET (2026-08-09)
-- **Próxima sesión sugerida:** Día 5 — Agentes: el concepto general (cierra el Bloque 1, arranca Bloque 2)
+- **Última sesión completada:** Día 5 — Agentes: el concepto general (2026-08-09)
+- **Próxima sesión sugerida:** Día 6 — Sub-agentes built-in y el patrón orquestador
 - **Proyecto de práctica (`practice-project/`):** ✅ Creado (2026-08-07)
 
 ## Resumen general
@@ -32,6 +32,7 @@ contexto y herramientas/permisos, aplicado con un ejercicio real sobre `practice
 | 2026-08-09 | Día 2 | Contenido: jerarquía de `CLAUDE.md` (usuario/proyecto/carpeta), trade-off de contexto, `settings.json` vs. modo de permiso de la UI, `/memory` vs. sistema de memoria (`memory/`+`MEMORY.md`), buenas/malas prácticas para inferir convenciones en repos grandes (reporte + aprobación humana + enforcement en build/CI). Ejercicio: se creó `.editorconfig` para `practice-project/`, se aplicó con `dotnet format` (5/5 tests OK) y se escribió `CLAUDE.md` documentando stack, estructura, comandos, estilo y convenciones del dominio. Se probó `/memory` (delega a terminal en la extensión IDE) y se guardó una memoria real de preferencia del usuario (explicaciones didácticas). | Arrancar Día 3 en la próxima sesión. |
 | 2026-08-09 | Día 3 | Contenido: diferencia slash command personalizado (siempre manual, 1 archivo) vs. skill (puede autoactivarse por `description`, carpeta con múltiples archivos, `allowed-tools`, `disable-model-invocation`); helpers existentes para generar skills/commands (recomendador `claude-automation-recommender`, creador guiado); preview de sub-agentes usando skills y gestión de contexto entre sub-agentes (se profundiza Día 6). Ejercicio: se exploraron 3 skills reales instaladas (`claude-security`, `frontend-design`, `hookify/writing-rules`) comparando su anatomía. | Arrancar Día 4 en la próxima sesión — crear skill propia para .NET. |
 | 2026-08-09 | Día 4 | Contenido: estructura de carpeta de una skill (`.claude/skills/<nombre>/SKILL.md`, convención carpeta=`name`), frontmatter YAML, ubicación de `disable-model-invocation`. Ejercicio: se creó la skill `gen-test-xunit` en `practice-project/.claude/skills/` (genera tests xUnit siguiendo el patrón de `Domain.Tests`, con `allowed-tools` acotado y verificación con `dotnet test`). Se probó invocación explícita vía `Skill` tool — funcionó de punta a punta, generó `Add_WithoutDueDate_LeavesDueDateNull` (6/6 tests OK). Quedó pendiente confirmar auto-activación silenciosa en una sesión nueva. | Arrancar Día 5 en la próxima sesión (cierra Bloque 1, arranca Bloque 2 de Agentes). |
+| 2026-08-09 | Día 5 | Contenido: loop ReAct (razonar-actuar-observar) con nombre formal, planner-executor, distinción agente vs. sub-agente (contexto propio, rol acotado), qué agrega el Agent SDK sobre Claude Code. Ejercicio: el usuario escribió `docs/dia5-loop-agentico.md` reflexionando sobre la tarea real del Día 1 (cancelación de tareas), identificando decisiones autónomas del agente; surgió una observación valiosa sobre riesgo de "test gaming" (debilitar/eliminar tests para lograr verde en vez de arreglar la causa), conectada a Día 16 (evaluación) y Día 11 (seguridad). Se discutieron palancas de prevención disponibles ya (pedir comparación explícita de opciones, modo Plan, extended thinking, sub-agente revisor). | Arrancar Día 6 en la próxima sesión — sub-agentes built-in y patrón orquestador. |
 
 ## Bloqueos o dudas abiertas
 
