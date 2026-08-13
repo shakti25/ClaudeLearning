@@ -85,11 +85,11 @@ Para actualizar tu progreso, marca `- [ ]` como `- [x]` y anota la fecha real. T
 - **Fecha real:** 2026-08-09
 
 ### Día 8 — MCP: fundamentos
-- [ ] **Objetivo:** Entender qué resuelve el Model Context Protocol y cómo se diferencia de una skill o tool nativa.
+- [x] **Objetivo:** Entender qué resuelve el Model Context Protocol y cómo se diferencia de una skill o tool nativa.
 - **Contenido:** Arquitectura cliente-servidor de MCP, servidores MCP existentes (filesystem, GitHub, bases de datos), cómo se conectan a Claude Code.
 - **Mecánica de invocación (con ejemplo real):** comando para registrar un servidor (`claude mcp add <nombre> <comando>`), dónde queda declarado (`.mcp.json` o `settings.json` según scope), cómo se ve una tool de MCP en la lista de herramientas disponibles (prefijo `mcp__<servidor>__<tool>`) y cómo la invoco (igual que cualquier tool nativa, sin sintaxis especial de tu parte), flag `--mcp-debug` para diagnosticar conexión.
 - **Ejercicio:** Conectar un servidor MCP existente (ej. uno de filesystem o GitHub) a tu Claude Code y probar 2-3 llamadas.
-- **Fecha real:** _—_
+- **Fecha real:** 2026-08-09
 
 ---
 
