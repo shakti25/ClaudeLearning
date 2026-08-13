@@ -70,10 +70,10 @@ Para actualizar tu progreso, marca `- [ ]` como `- [x]` y anota la fecha real. T
 - **Fecha real:** 2026-08-09
 
 ### Día 6 — Sub-agentes built-in y el patrón orquestador
-- [ ] **Objetivo:** Entender los sub-agentes disponibles por defecto y el patrón de **model tiering**: un modelo capaz (Opus/Sonnet) orquesta y planea, delega ejecución a modelos más baratos/rápidos (Haiku/Sonnet) según la complejidad de cada sub-tarea.
+- [x] **Objetivo:** Entender los sub-agentes disponibles por defecto y el patrón de **model tiering**: un modelo capaz (Opus/Sonnet) orquesta y planea, delega ejecución a modelos más baratos/rápidos (Haiku/Sonnet) según la complejidad de cada sub-tarea.
 - **Contenido:** Diferencia entre agente principal y sub-agente, aislamiento de contexto, agentes built-in (Explore, Plan, general-purpose), por qué delegar a un modelo distinto tiene sentido en costo/latencia/calidad.
 - **Ejercicio:** Usar un sub-agente existente (ej. `Explore`) para investigar una parte de `practice-project/`; luego simular manualmente el patrón orquestador: tú decides qué modelo usarías para cada paso de una tarea real y por qué.
-- **Fecha real:** _—_
+- **Fecha real:** 2026-08-09
 
 ### Día 7 — Crear sub-agentes propios + selección de modelo
 - [ ] **Objetivo:** Diseñar un sub-agente personalizado con un rol específico y elegir su modelo con criterio (no por defecto).
