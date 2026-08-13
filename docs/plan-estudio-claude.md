@@ -78,11 +78,11 @@ Para actualizar tu progreso, marca `- [ ]` como `- [x]` y anota la fecha real. T
 - **Fecha real:** 2026-08-09
 
 ### Día 7 — Crear sub-agentes propios + selección de modelo
-- [ ] **Objetivo:** Diseñar un sub-agente personalizado con un rol específico y elegir su modelo con criterio (no por defecto).
+- [x] **Objetivo:** Diseñar un sub-agente personalizado con un rol específico y elegir su modelo con criterio (no por defecto).
 - **Contenido:** Definición de agentes (`.claude/agents/*.md`), frontmatter (tools, model), diferencias prácticas Haiku/Sonnet/Opus (costo, velocidad, capacidad), extended thinking y prompt caching como palancas de costo, cuándo usar `isolation: worktree`, ejecución en background vs síncrona.
 - **Mecánica de invocación (con ejemplo real):** cómo se escribe el frontmatter completo de un `.md` en `.claude/agents/` (`name`, `description`, `tools`, `model`); cómo lo invoco yo (`subagent_type` con tu nombre propio) vs. cómo lo invocás vos explícitamente ("usá el sub-agente revisor-dotnet con Haiku para..."); qué comando de gestión existe (`/agents`) para listar/editar agentes ya creados; diferencia entre invocación síncrona (bloquea el chat, esperás el resultado) y en background (`run_in_background`, seguís hablando mientras corre).
 - **Ejercicio:** Crear un sub-agente "revisor-dotnet" (rol acotado) usando el modelo más barato que cumpla el trabajo, y ejecutarlo **de verdad** (no simulado, a diferencia del Día 6) sobre un cambio real en `practice-project/` — candidato: revisar el endpoint `Cancel` faltante que encontramos el Día 6. Justificar la elección de modelo por escrito.
-- **Fecha real:** _—_
+- **Fecha real:** 2026-08-09
 
 ### Día 8 — MCP: fundamentos
 - [ ] **Objetivo:** Entender qué resuelve el Model Context Protocol y cómo se diferencia de una skill o tool nativa.
