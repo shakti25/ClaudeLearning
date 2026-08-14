@@ -103,11 +103,11 @@ Para actualizar tu progreso, marca `- [ ]` como `- [x]` y anota la fecha real. T
 - **Fecha real:** 2026-08-13
 
 ### Día 10 — Construir tu propio servidor MCP en .NET
-- [ ] **Objetivo:** Entender el protocolo lo suficiente para exponer herramientas propias vía MCP desde una app .NET.
+- [x] **Objetivo:** Entender el protocolo lo suficiente para exponer herramientas propias vía MCP desde una app .NET.
 - **Contenido:** Especificación mínima de un servidor MCP (transport, tools/list, tools/call), SDKs/librerías disponibles para .NET (oficial o comunidad).
 - **Mecánica de invocación (con ejemplo real):** cómo arranca el proceso del servidor (transport `stdio` típico: Claude Code lo lanza como subproceso), payload mínimo de `tools/list` y `tools/call` en JSON-RPC, cómo se registra ese servidor propio en `claude mcp add` apuntando al ejecutable/proyecto .NET, cómo se prueba end-to-end pidiéndome usar esa tool nueva.
 - **Ejercicio:** Crear un servidor MCP mínimo en `practice-project/` que exponga 1-2 herramientas simples (ej. "consultar estado de builds" o "listar entidades del dominio").
-- **Fecha real:** _—_
+- **Fecha real:** 2026-08-13
 
 ### Día 11 — Seguridad y guardrails para agentes
 - [ ] **Objetivo:** Entender los riesgos de dar herramientas/datos a un agente y cómo mitigarlos.
