@@ -96,11 +96,11 @@ Para actualizar tu progreso, marca `- [ ]` como `- [x]` y anota la fecha real. T
 ## Bloque 3 — MCP en profundidad, Seguridad y Plugins (días 9-13)
 
 ### Día 9 — Consumir MCP en un flujo real
-- [ ] **Objetivo:** Integrar un servidor MCP a tu trabajo diario .NET (ej. acceso a una base de datos o a issues de un repo).
+- [x] **Objetivo:** Integrar un servidor MCP a tu trabajo diario .NET (ej. acceso a una base de datos o a issues de un repo).
 - **Contenido:** Configuración de servidores MCP en `settings.json`, scopes (usuario/proyecto).
 - **Mecánica de invocación (con ejemplo real):** ejemplo concreto de una entrada de `.mcp.json` (comando, args, env), diferencia entre scope usuario/proyecto/local y cuándo versionar `.mcp.json` en git para que el equipo comparta el mismo server, cómo pido yo una operación de MCP en lenguaje natural sin que vos sepas el nombre exacto de la tool (mismo principio de matching semántico que las skills).
 - **Ejercicio:** Configurar un MCP server útil para tu contexto y resolver una tarea real usándolo.
-- **Fecha real:** _—_
+- **Fecha real:** 2026-08-13
 
 ### Día 10 — Construir tu propio servidor MCP en .NET
 - [ ] **Objetivo:** Entender el protocolo lo suficiente para exponer herramientas propias vía MCP desde una app .NET.
