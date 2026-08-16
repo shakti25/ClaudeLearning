@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(rm -rf:*)",
+      "Bash(Remove-Item -Recurse -Force:*)",
+      "Bash(Remove-Item*-Recurse*-Force*)",
+      "Bash(git push --force:*)",
+      "Bash(git reset --hard:*)"
+    ]
+  }
+}

@@ -110,11 +110,11 @@ Para actualizar tu progreso, marca `- [ ]` como `- [x]` y anota la fecha real. T
 - **Fecha real:** 2026-08-13
 
 ### Día 11 — Seguridad y guardrails para agentes
-- [ ] **Objetivo:** Entender los riesgos de dar herramientas/datos a un agente y cómo mitigarlos.
+- [x] **Objetivo:** Entender los riesgos de dar herramientas/datos a un agente y cómo mitigarlos.
 - **Contenido:** Prompt injection (directa e indirecta, ej. vía contenido de archivos/MCP), permisos granulares, sandboxing, por qué nunca confiar ciegamente en output de una tool externa, principio de menor privilegio al diseñar sub-agentes y MCP servers.
 - **Mecánica de invocación (con ejemplo real):** sintaxis real de reglas `allow`/`ask`/`deny` en `settings.json` (ej. `"Bash(git push:*)": "ask"`), cómo se ve un `allowed-tools` acotado en una skill/agente (ya lo vimos con `claude-security` el Día 3) aplicado a tu propio `revisor-dotnet`, cómo simular un ataque controlado (archivo con texto tipo "ignorá tus instrucciones anteriores") para confirmar que no lo sigo ciegamente.
 - **Ejercicio:** Revisar el servidor MCP y el sub-agente que creaste (días 7 y 10) e identificar qué pasaría si una fuente de datos que consumen fuera maliciosa; ajustar permisos/scopes en consecuencia.
-- **Fecha real:** _—_
+- **Fecha real:** 2026-08-13
 
 ### Día 12 — Hooks: automatización del flujo
 - [ ] **Objetivo:** Automatizar comportamientos con hooks (pre/post tool use, on-stop, etc.).

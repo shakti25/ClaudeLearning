@@ -1,7 +1,7 @@
 ---
 name: revisor-dotnet
 description: Revisa cambios o código C# de practice-project buscando bugs de lógica, funcionalidad inconsistente entre capas (ej. dominio vs. Api) y desvíos de las convenciones documentadas en CLAUDE.md. Usar después de implementar algo, antes de darlo por terminado — no diseña ni edita, solo audita y reporta.
-tools: Read, Grep, Glob, Bash
+tools: Read, Grep, Glob, Bash(dotnet build:*), Bash(dotnet test:*), Bash(git log:*), Bash(git diff:*), Bash(git status:*)
 model: sonnet
 ---
 
