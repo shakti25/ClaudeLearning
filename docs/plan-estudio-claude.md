@@ -29,9 +29,20 @@ Al terminar, deberías poder:
 
 4 bloques, 17 sesiones de ~2h. Cada sesión tiene: **objetivo**, **contenido**, **ejercicio práctico** y una casilla para marcar como completada.
 
-A partir del Día 7 (ajuste hecho el 2026-08-09, tras notar el hueco en los Días 1-6), cada sesión suma también una **"Mecánica de invocación"**: no solo el concepto, sino cómo se invoca/configura en la práctica de verdad — comandos concretos, sintaxis real, ejemplos — para no quedarnos solo en teoría + práctica guiada por Claude, sino entender el mecanismo vos mismo.
+A partir del Día 7 (ajuste hecho el 2026-08-09, tras notar el hueco en los Días 1-6), cada sesión suma también una **"Mecánica de invocación"**: no solo el concepto, sino cómo se invoca/configura en la práctica de verdad — comandos concretos, sintaxis real, ejemplos.
 
 Para actualizar tu progreso, marca `- [ ]` como `- [x]` y anota la fecha real. También puedes decirme "actualiza el progreso" y lo hago junto con [progreso.md](progreso.md).
+
+### 🧑‍🏫 Metodología de las sesiones (ajuste hecho el 2026-08-21, tras el Día 13)
+
+El Día 13 se desvió de esto: Claude hizo casi todo (crear archivos, correr comandos, diagnosticar y arreglar bugs) sin explicar teoría primero ni dejar que el usuario ejecutara nada — terminó siendo una narración de logros de Claude, no una sesión de aprendizaje. **A partir de acá, toda sesión (Día 14 en adelante) sigue esta estructura sin excepción:**
+
+1. **Teoría primero, siempre, estilo didáctico** (conceptos → ejemplos → por qué importa — ver [[preferencia-explicaciones-didacticas]]): antes de tocar un solo archivo, Claude explica qué es el tema de hoy, para qué sirve, y qué vamos a construir y por qué — igual que se hizo bien en los Días 1-3.
+2. **El ejercicio lo ejecuta el usuario, no Claude.** Claude guía paso a paso (qué archivo crear, qué escribir, qué comando correr, qué mirar en el resultado), pero es el usuario quien usa su propio editor/terminal para crear, editar, correr y probar. Claude no reemplaza al usuario con sus propias herramientas (Write/Edit/Bash) salvo que el usuario se lo pida puntualmente (ej. "hacelo vos esta parte, quiero ver el resultado") o para mostrar algo muy específico ya aclarado como demostración, no como el ejercicio en sí.
+3. **Los errores los diagnostica y corrige el usuario, con ayuda de Claude como guía/pista, no Claude arreglándolo solo.** Si algo falla, Claude ayuda a interpretar el error y sugiere hacia dónde mirar, pero la corrección la aplica el usuario.
+4. **Nadie marca el día como completado excepto el usuario, y solo cuando él lo dice explícitamente** — no como cierre automático de una serie de acciones de Claude. Claude no pregunta "¿marco como completado?" al final de su propio trabajo; espera a que el usuario, tras haber seguido la guía él mismo, confirme que está satisfecho.
+
+Los Días 1-13 quedan tal como se hicieron (no se rehacen retroactivamente salvo que el usuario lo pida explícitamente para alguno en particular).
 
 ---
 
@@ -124,11 +135,11 @@ Para actualizar tu progreso, marca `- [ ]` como `- [x]` y anota la fecha real. T
 - **Fecha real:** 2026-08-21
 
 ### Día 13 — Plugins: empaquetar todo
-- [ ] **Objetivo:** Entender cómo un plugin agrupa skills, agentes, comandos y hooks en una unidad distribuible.
+- [x] **Objetivo:** Entender cómo un plugin agrupa skills, agentes, comandos y hooks en una unidad distribuible.
 - **Contenido:** Estructura de un plugin, instalación/distribución, cuándo conviene crear uno vs. usar piezas sueltas.
 - **Mecánica de invocación (con ejemplo real):** estructura de carpeta real de un plugin (`.claude-plugin/plugin.json` + `skills/`, `agents/`, `commands/`, `hooks/` — la vimos el Día 3 al explorar `claude-security`, `frontend-design`, etc.), cómo se instala uno propio localmente para probarlo antes de compartirlo, comandos `/plugin marketplace add` y `/plugin install` para distribución real a un equipo.
 - **Ejercicio:** Empaquetar la skill y el sub-agente creados en días 4 y 7 dentro de un plugin propio "toolkit-dotnet".
-- **Fecha real:** _—_
+- **Fecha real:** 2026-08-21
 
 ---
 
