@@ -117,11 +117,11 @@ Para actualizar tu progreso, marca `- [ ]` como `- [x]` y anota la fecha real. T
 - **Fecha real:** 2026-08-13
 
 ### Día 12 — Hooks: automatización del flujo
-- [ ] **Objetivo:** Automatizar comportamientos con hooks (pre/post tool use, on-stop, etc.).
+- [x] **Objetivo:** Automatizar comportamientos con hooks (pre/post tool use, on-stop, etc.).
 - **Contenido:** Tipos de hooks, casos de uso (formatear código automáticamente, correr tests antes de un commit, notificaciones).
 - **Mecánica de invocación (con ejemplo real):** dónde se declaran (`settings.json`, clave `hooks`), estructura real de un hook (`PreToolUse`/`PostToolUse`/`Stop`, matcher por herramienta, comando a ejecutar), ejemplo concreto conectado a `practice-project/` (`PostToolUse` sobre `Edit`/`Write` en archivos `.cs` corriendo `dotnet format`), cómo se depura un hook que no dispara (existe la skill `hookify` que vimos el Día 3, alternativa más guiada a editar `settings.json` a mano).
 - **Ejercicio:** Configurar un hook que corra `dotnet format` o `dotnet test` automáticamente tras cada edición en `practice-project/`.
-- **Fecha real:** _—_
+- **Fecha real:** 2026-08-21
 
 ### Día 13 — Plugins: empaquetar todo
 - [ ] **Objetivo:** Entender cómo un plugin agrupa skills, agentes, comandos y hooks en una unidad distribuible.
